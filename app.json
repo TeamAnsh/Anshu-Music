@@ -1,5 +1,5 @@
 {
-    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+    "name": "𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
     "keywords": [
@@ -33,8 +33,8 @@
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+        "description": "A name for your Music Bot Like 𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌. You can use special characters bot ko Lund farak ni padega",
+        "value": "𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌",
         "required": true
       },
       "OWNER_ID": {
@@ -58,7 +58,7 @@
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk from Anshu.",
         "value": "",
         "required": true
       }
