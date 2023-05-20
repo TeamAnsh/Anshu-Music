@@ -72,4 +72,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ 𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌](https://github.com/TeamAnsh) ғᴏʀ [𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌 ʙᴏᴛ](https://github.com/TeamAnsh/𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌bot)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ 𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌](https://github.com/TeamAnsh) ғᴏʀ [𝙰𝚗𝚜𝚑𝚞❧𝙼𝚞𝚜𝚒𝚌 ʙᴏᴛ](https://github.com/TeamAnsh/Anshu-Music)_ </b>
