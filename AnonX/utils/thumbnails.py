@@ -126,9 +126,9 @@ async def gen_thumb(videoid, user_id):
             draw.text(
                 (450, 25),
                 f"STARTED PLAYING",
-                fill="white",
+                fill="Red",
                 stroke_width=3,
-                stroke_fill="grey",
+                stroke_fill="Black",
                 font=font,
             )
             if para[0]:
@@ -136,9 +136,9 @@ async def gen_thumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
-                    fill="white",
+                    fill="Black",
                     stroke_width=1,
-                    stroke_fill="white",
+                    stroke_fill="Black",
                     font=font,
                 )
             if para[1]:
