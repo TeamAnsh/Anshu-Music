@@ -266,9 +266,9 @@ async def gen_qthumb(videoid, user_id):
             draw.text(
                 (455, 25),
                 "ADDED TO QUEUE",
-                fill="white",
+                fill="Black",
                 stroke_width=5,
-                stroke_fill="black",
+                stroke_fill="White",
                 font=font,
             )
             if para[0]:
@@ -276,9 +276,9 @@ async def gen_qthumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
-                    fill="white",
+                    fill="Black",
                     stroke_width=1,
-                    stroke_fill="white",
+                    stroke_fill="Black",
                     font=font,
                 )
             if para[1]:
@@ -286,9 +286,9 @@ async def gen_qthumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
-                    fill="white",
+                    fill="Black",
                     stroke_width=1,
-                    stroke_fill="white",
+                    stroke_fill="Black",
                     font=font,
                 )
         except:
