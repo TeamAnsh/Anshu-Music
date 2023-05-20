@@ -126,9 +126,9 @@ async def gen_thumb(videoid, user_id):
             draw.text(
                 (450, 25),
                 f"STARTED PLAYING",
-                fill="Red",
+                fill="Neon",
                 stroke_width=3,
-                stroke_fill="Black",
+                stroke_fill="Grey",
                 font=font,
             )
             if para[0]:
