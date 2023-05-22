@@ -147,16 +147,8 @@ async def gen_thumb(videoid, user_id):
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
-                )
-        except:
-            pass
-        text_w, text_h = draw.textsize(f" Mins", font=arial)
-        draw.text(
-            ((1280 - text_w) / 2, 660),
-            f" \t\t\t\tMins",
-            fill="white",
-            font=arial,
-        )
+               
+       
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except:
@@ -284,16 +276,8 @@ async def gen_qthumb(videoid, user_id):
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
-                )
-        except:
-            pass
-        text_w, text_h = draw.textsize(f" Mins", font=arial)
-        draw.text(
-            ((1280 - text_w) / 2, 660),
-            f" \t\t\t\tMins",
-            fill="white",
-            font=arial,
-        )
+               
+       
 
         try:
             os.remove(f"cache/thumb{videoid}.png")
