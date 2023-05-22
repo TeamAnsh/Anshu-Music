@@ -147,7 +147,7 @@ async def gen_thumb(videoid, user_id):
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
-               
+                )
        
         try:
             os.remove(f"cache/thumb{videoid}.png")
@@ -276,7 +276,7 @@ async def gen_qthumb(videoid, user_id):
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
-               
+                )
        
 
         try:
