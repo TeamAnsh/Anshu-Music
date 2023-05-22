@@ -85,7 +85,7 @@ async def gen_thumb(videoid, user_id):
         bg = Image.open(f"AnonX/assets/anonx.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(10))
+        background = image2.filter(filter=ImageFilter.BoxBlur(30))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.6)
 
@@ -126,9 +126,9 @@ async def gen_thumb(videoid, user_id):
             draw.text(
                 (450, 25),
                 f"STARTED PLAYING",
-                fill="Silver",
+                fill="white",
                 stroke_width=3,
-                stroke_fill="Grey",
+                stroke_fill="grey",
                 font=font,
             )
             if para[0]:
@@ -136,9 +136,9 @@ async def gen_thumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
-                    fill="White",
+                    fill="white",
                     stroke_width=1,
-                    stroke_fill="White",
+                    stroke_fill="white",
                     font=font,
                 )
             if para[1]:
@@ -146,9 +146,9 @@ async def gen_thumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
-                    fill="Black",
+                    fill="white",
                     stroke_width=1,
-                    stroke_fill="Black",
+                    stroke_fill="white",
                     font=font,
                 )
         except:
@@ -225,7 +225,7 @@ async def gen_qthumb(videoid, user_id):
         bg = Image.open(f"AnonX/assets/anonx.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
-        background = image2.filter(filter=ImageFilter.BoxBlur(10))
+        background = image2.filter(filter=ImageFilter.BoxBlur(30))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.6)
 
@@ -266,9 +266,9 @@ async def gen_qthumb(videoid, user_id):
             draw.text(
                 (455, 25),
                 "ADDED TO QUEUE",
-                fill="White",
+                fill="white",
                 stroke_width=5,
-                stroke_fill="Black",
+                stroke_fill="black",
                 font=font,
             )
             if para[0]:
@@ -276,9 +276,9 @@ async def gen_qthumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 530),
                     f"{para[0]}",
-                    fill="White",
+                    fill="white",
                     stroke_width=1,
-                    stroke_fill="White",
+                    stroke_fill="white",
                     font=font,
                 )
             if para[1]:
@@ -286,9 +286,9 @@ async def gen_qthumb(videoid, user_id):
                 draw.text(
                     ((1280 - text_w) / 2, 580),
                     f"{para[1]}",
-                    fill="White",
+                    fill="white",
                     stroke_width=1,
-                    stroke_fill="White",
+                    stroke_fill="white",
                     font=font,
                 )
         except:
