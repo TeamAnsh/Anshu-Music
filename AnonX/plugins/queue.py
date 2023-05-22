@@ -98,7 +98,7 @@ async def ping_com(client, message: Message, _):
 📌**ᴛɪᴛʟᴇ:** {title}
 
 🍒**ᴛʏᴩᴇ:** {typo}
-💖**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
+🖤**ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, "c" if cplay else "g", videoid)
@@ -279,7 +279,7 @@ async def queue_back(client, CallbackQuery: CallbackQuery, _):
 📌 **ᴛɪᴛʟᴇ:** {title}
 
 🍒 **ᴛʏᴩᴇ:** {typo}
-💖 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
+🖤 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {user}
 {send}"""
     upl = (
         queue_markup(_, DUR, cplay, videoid)
