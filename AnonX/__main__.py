@@ -32,7 +32,7 @@ async def init():
         and not config.SPOTIFY_CLIENT_SECRET
     ):
         LOGGER("AnonX").warning(
-            "Sur spotify id aur secret toh daala hi nahi aapne ab toh spotify se nahi chala paaoge gaane."
+            "Bas Bajna Chahie Gaana."
         )
     try:
         users = await get_gbanned()
